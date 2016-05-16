@@ -1,0 +1,6 @@
+framework module Pods_devchatfire {
+  umbrella header "Pods-devchatfire-umbrella.h"
+
+  export *
+  module * { export * }
+}

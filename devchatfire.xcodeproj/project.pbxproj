@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632C6DAC1CE2D93B0048C5F2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C6DA91CE2D93B0048C5F2 /* Bolts.framework */; };
+		632C6DAD1CE2D93B0048C5F2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C6DAA1CE2D93B0048C5F2 /* FBSDKCoreKit.framework */; };
+		632C6DAE1CE2D93B0048C5F2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C6DAB1CE2D93B0048C5F2 /* FBSDKLoginKit.framework */; };
+		635EB36E1CE5879300BB018F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635EB36D1CE5879300BB018F /* Post.swift */; };
+		637DEC6C1CE30842008D2B28 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DEC6B1CE30842008D2B28 /* DataService.swift */; };
+		637DEC6E1CE327CD008D2B28 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DEC6D1CE327CD008D2B28 /* FeedVC.swift */; };
+		637DEC701CE3296B008D2B28 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DEC6F1CE3296B008D2B28 /* PostCell.swift */; };
 		63F353281CE18E2300705D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F353271CE18E2300705D77 /* AppDelegate.swift */; };
 		63F3532A1CE18E2300705D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F353291CE18E2300705D77 /* ViewController.swift */; };
 		63F3532D1CE18E2300705D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F3532B1CE18E2300705D77 /* Main.storyboard */; };
 		63F3532F1CE18E2300705D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F3532E1CE18E2300705D77 /* Assets.xcassets */; };
 		63F353321CE18E2300705D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F353301CE18E2300705D77 /* LaunchScreen.storyboard */; };
+		63F353411CE18E7200705D77 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63F3533D1CE18E7200705D77 /* NotoSans-Bold.ttf */; };
+		63F353421CE18E7200705D77 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63F3533E1CE18E7200705D77 /* NotoSans-BoldItalic.ttf */; };
+		63F353431CE18E7200705D77 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63F3533F1CE18E7200705D77 /* NotoSans-Italic.ttf */; };
+		63F353441CE18E7200705D77 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63F353401CE18E7200705D77 /* NotoSans-Regular.ttf */; };
+		63F353461CE1910B00705D77 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F353451CE1910B00705D77 /* MaterialView.swift */; };
+		63F353491CE1917100705D77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F353481CE1917100705D77 /* Constants.swift */; };
+		63F3534B1CE1955800705D77 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3534A1CE1955800705D77 /* MaterialButton.swift */; };
+		63F3534D1CE19A4C00705D77 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3534C1CE19A4C00705D77 /* MaterialTextField.swift */; };
+		CFC918083DF940E1DFC7768A /* Pods_devchatfire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB03CF954FCE74A6697B3869 /* Pods_devchatfire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D538E8AA3D57B8FAD5C7FAE /* Pods-devchatfire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devchatfire.release.xcconfig"; path = "Pods/Target Support Files/Pods-devchatfire/Pods-devchatfire.release.xcconfig"; sourceTree = "<group>"; };
+		632C6DA91CE2D93B0048C5F2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		632C6DAA1CE2D93B0048C5F2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		632C6DAB1CE2D93B0048C5F2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		635EB36D1CE5879300BB018F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		637DEC6B1CE30842008D2B28 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		637DEC6D1CE327CD008D2B28 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		637DEC6F1CE3296B008D2B28 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		63F353241CE18E2300705D77 /* devchatfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devchatfire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F353271CE18E2300705D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63F353291CE18E2300705D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,16 @@
 		63F3532E1CE18E2300705D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F353311CE18E2300705D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63F353331CE18E2300705D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F3533D1CE18E7200705D77 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		63F3533E1CE18E7200705D77 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		63F3533F1CE18E7200705D77 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		63F353401CE18E7200705D77 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		63F353451CE1910B00705D77 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		63F353481CE1917100705D77 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63F3534A1CE1955800705D77 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		63F3534C1CE19A4C00705D77 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		99C2D251CFEF573B7644806C /* Pods-devchatfire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devchatfire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devchatfire/Pods-devchatfire.debug.xcconfig"; sourceTree = "<group>"; };
+		BB03CF954FCE74A6697B3869 /* Pods_devchatfire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devchatfire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632C6DAC1CE2D93B0048C5F2 /* Bolts.framework in Frameworks */,
+				632C6DAD1CE2D93B0048C5F2 /* FBSDKCoreKit.framework in Frameworks */,
+				632C6DAE1CE2D93B0048C5F2 /* FBSDKLoginKit.framework in Frameworks */,
+				CFC918083DF940E1DFC7768A /* Pods_devchatfire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CEB7FAB52CF5ECCC1867A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB03CF954FCE74A6697B3869 /* Pods_devchatfire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		632C6DA81CE2D92B0048C5F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				632C6DA91CE2D93B0048C5F2 /* Bolts.framework */,
+				632C6DAA1CE2D93B0048C5F2 /* FBSDKCoreKit.framework */,
+				632C6DAB1CE2D93B0048C5F2 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		637DEC6A1CE30833008D2B28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				637DEC6B1CE30842008D2B28 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		63F3531B1CE18E2300705D77 = {
 			isa = PBXGroup;
 			children = (
 				63F353261CE18E2300705D77 /* devchatfire */,
 				63F353251CE18E2300705D77 /* Products */,
+				DB83A4399B2DDF34EFDDB8E5 /* Pods */,
+				3CEB7FAB52CF5ECCC1867A34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,76 @@
 		63F353261CE18E2300705D77 /* devchatfire */ = {
 			isa = PBXGroup;
 			children = (
+				637DEC6A1CE30833008D2B28 /* Services */,
+				632C6DA81CE2D92B0048C5F2 /* Frameworks */,
+				63F353471CE1914B00705D77 /* Utils */,
+				63F3533C1CE18E5100705D77 /* Resources */,
+				63F3533B1CE18E4B00705D77 /* Model */,
+				63F3533A1CE18E4500705D77 /* View */,
+				63F353391CE18E3E00705D77 /* Controller */,
 				63F353271CE18E2300705D77 /* AppDelegate.swift */,
-				63F353291CE18E2300705D77 /* ViewController.swift */,
 				63F3532B1CE18E2300705D77 /* Main.storyboard */,
 				63F3532E1CE18E2300705D77 /* Assets.xcassets */,
 				63F353301CE18E2300705D77 /* LaunchScreen.storyboard */,
 				63F353331CE18E2300705D77 /* Info.plist */,
 			);
 			path = devchatfire;
+			sourceTree = "<group>";
+		};
+		63F353391CE18E3E00705D77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63F353291CE18E2300705D77 /* ViewController.swift */,
+				637DEC6D1CE327CD008D2B28 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		63F3533A1CE18E4500705D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F353451CE1910B00705D77 /* MaterialView.swift */,
+				63F3534A1CE1955800705D77 /* MaterialButton.swift */,
+				63F3534C1CE19A4C00705D77 /* MaterialTextField.swift */,
+				637DEC6F1CE3296B008D2B28 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		63F3533B1CE18E4B00705D77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				635EB36D1CE5879300BB018F /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		63F3533C1CE18E5100705D77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63F3533D1CE18E7200705D77 /* NotoSans-Bold.ttf */,
+				63F3533E1CE18E7200705D77 /* NotoSans-BoldItalic.ttf */,
+				63F3533F1CE18E7200705D77 /* NotoSans-Italic.ttf */,
+				63F353401CE18E7200705D77 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		63F353471CE1914B00705D77 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				63F353481CE1917100705D77 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DB83A4399B2DDF34EFDDB8E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99C2D251CFEF573B7644806C /* Pods-devchatfire.debug.xcconfig */,
+				5D538E8AA3D57B8FAD5C7FAE /* Pods-devchatfire.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F353361CE18E2300705D77 /* Build configuration list for PBXNativeTarget "devchatfire" */;
 			buildPhases = (
+				BD4EAC9DAFC2B2C5B231A8CF /* Check Pods Manifest.lock */,
 				63F353201CE18E2300705D77 /* Sources */,
 				63F353211CE18E2300705D77 /* Frameworks */,
 				63F353221CE18E2300705D77 /* Resources */,
+				7DC0AFEDA9E3E5234254323F /* Embed Pods Frameworks */,
+				F76817365F9997AC89AFCBC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +254,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F353411CE18E7200705D77 /* NotoSans-Bold.ttf in Resources */,
 				63F353321CE18E2300705D77 /* LaunchScreen.storyboard in Resources */,
+				63F353421CE18E7200705D77 /* NotoSans-BoldItalic.ttf in Resources */,
+				63F353431CE18E7200705D77 /* NotoSans-Italic.ttf in Resources */,
 				63F3532F1CE18E2300705D77 /* Assets.xcassets in Resources */,
 				63F3532D1CE18E2300705D77 /* Main.storyboard in Resources */,
+				63F353441CE18E7200705D77 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC0AFEDA9E3E5234254323F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devchatfire/Pods-devchatfire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4EAC9DAFC2B2C5B231A8CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F76817365F9997AC89AFCBC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devchatfire/Pods-devchatfire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63F353201CE18E2300705D77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F3534D1CE19A4C00705D77 /* MaterialTextField.swift in Sources */,
+				637DEC6C1CE30842008D2B28 /* DataService.swift in Sources */,
+				63F353461CE1910B00705D77 /* MaterialView.swift in Sources */,
 				63F3532A1CE18E2300705D77 /* ViewController.swift in Sources */,
+				637DEC6E1CE327CD008D2B28 /* FeedVC.swift in Sources */,
+				637DEC701CE3296B008D2B28 /* PostCell.swift in Sources */,
 				63F353281CE18E2300705D77 /* AppDelegate.swift in Sources */,
+				63F353491CE1917100705D77 /* Constants.swift in Sources */,
+				63F3534B1CE1955800705D77 /* MaterialButton.swift in Sources */,
+				635EB36E1CE5879300BB018F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +439,14 @@
 		};
 		63F353371CE18E2300705D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C2D251CFEF573B7644806C /* Pods-devchatfire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/devchatfire",
+				);
 				INFOPLIST_FILE = devchatfire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.devchatfire;
@@ -259,8 +456,14 @@
 		};
 		63F353381CE18E2300705D77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D538E8AA3D57B8FAD5C7FAE /* Pods-devchatfire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/devchatfire",
+				);
 				INFOPLIST_FILE = devchatfire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.david.devchatfire;
@@ -287,6 +490,7 @@
 				63F353381CE18E2300705D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
