@@ -74,13 +74,14 @@ class PostCell: UITableViewCell {
             if let doesNotExist = snapshot.value as? NSNull {
                 // We haven't liked this post
                 self.likeImage.image = UIImage(named: "heart-full")
-                self.post.adjustLikes(true)
+                self.post!.adjustLikes(true)
                 self.likeRef.setValue(true)
             } else {
                 self.likeImage.image = UIImage(named: "heart-empty")
-                self.post.adjustLikes(false)
+                self.post!.adjustLikes(false)
                 self.likeRef.removeValue()
             }
+            self.likesLbl.text = "\(self.post!.likes)"
         })
 
     }
